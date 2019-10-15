@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "test-7596d": {
+      "hosting": {
+        "fb-auth": [
+          "test-7596d"
+        ]
+      }
+    }
+  }
+}

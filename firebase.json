@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "fb-auth",
+      "public": "dist/fb-auth",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
